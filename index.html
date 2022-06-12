@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>Body Mass Index Calculator</h1>
+    <p>Hello! This is a simple calculator to get your Body Mass Index.</p>
+    <div>
+        <form>
+            <input id="peso" type="number" min="0" max="350" placeholder="Write your weight in 'kg' here, ex.: 87" required>
+            <input id="altura"  type="number" min="0" max="2.5" placeholder="Write your height in 'm' here, ex.: 1,82" required>
+            <button id="calcular">Calculate</button>
+        </form>
+        <br>
+        <hr>
+        <br>
+        <div id="resultado"> </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
