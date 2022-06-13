@@ -6,8 +6,7 @@
     display: flex;
     justify-content: center;
     margin-top: 3%;
-    max-width: 500px;
-    min-width: 500px;
+    max-width: 30%;
     border: 2px solid whitesmoke;
     border-radius: 25px;
     padding: 25px 10px 25px 10px;
