@@ -14,8 +14,12 @@ function imc(){
         info = 'you are in the healthy weight range.'
     } else if (valorIMC>=25 && valorIMC<30){
         info = 'you are in the overweight range.'
-    } else if (valorIMC>=30){
+    } else if (valorIMC>=30 && valorIMC<35){
         info = 'you are in the obese range.'
+    } else if (valorIMC>=35 && valorIMC<40){
+        info = 'you are in the excessive obese range.'
+    } else if (valorIMC>=40){
+        info = 'you are in the morbid obese range.'
     } else{
         info= 'the value is not valid, please try another'
     }

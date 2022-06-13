@@ -30,6 +30,7 @@ p{
 body{
     background: linear-gradient(var(--azul), var(--verde));
     background-repeat: no-repeat;
+    height: 100%;
     
 }
 
