@@ -45,3 +45,11 @@ button{
 div{
     font-size: 16pt;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
